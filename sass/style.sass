@@ -1,0 +1,308 @@
+
+
+@keyframes heartbeat
+    from
+        transform: scale(1)
+    50%
+        transform: scale(1.4)
+    to
+        transform: scale(1)
+* 
+    font-family: 'Museo Sans Cyrl', sans-serif
+
+a.header__menu_link 
+    text-decoration: none
+
+li:hover.span
+    z-index: 3
+    color: #fff
+.container 
+    margin: 0 auto
+
+.span
+    z-index: 3
+    display: flex
+    width: 34px
+    height: 3px
+    background-color: #fff
+    margin: 0 auto
+    margin-top: 10px
+    display: none
+
+.header 
+    background: url(../img/bg.jpg) center (center / cover) no-repeat
+    min-height: 900px
+    padding: 40px 0 0 0 
+    &__menu
+        padding: 0
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        &_link
+            font-family: Open Sans
+            font-size: 13px
+            text-align: right
+            color: #fff
+            display: flex
+            &:hover.span
+                z-index: 3
+                color: #fff
+                
+
+    &__title
+        font-family: Open Sans
+        font-size: 50px
+        color: #fff
+        text-align: right
+        padding: 370px 750px 0 0
+    &__button
+        width: 280px
+        height: 60px
+        border: none
+        border-radius: 30px 
+        box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.4)
+        background-color: #8824cd
+
+        font-family: Open Sans
+        font-size: 18px
+        font-weight: 700
+        text-align: center
+        color: #fff
+        margin: 50px  0 0 270px
+    &__subtitle
+        font-family: Open Sans
+        font-size: 12PX
+        padding: 18px 0 0 300px 
+        color: #fff
+
+.promo
+    &__logo
+        margin-top: 40px
+    &__text 
+        font-size: 11px 
+        color: #fff
+
+
+
+span
+    height: 1px
+    opacity: 0.2
+    background-color: #fff
+    mix-blend-mode: overlay
+
+.benefits
+    min-height: 500px
+    padding: 96px 0 110px 0
+    background-color: #2e3b4e
+    &__wrapper
+        margin: 0 auto
+        width: 90%
+    &__title
+        padding-top: 60px
+        font-family: Open Sans
+        font-size: 15px
+        font-weight: bold
+        text-transform: uppercase
+        color: #fff
+    &__text
+        margin: 0 auto
+        padding-top: 30px
+        font-family: Open Sans
+        font-size: 15px
+        color: #fff
+        
+.start
+    background: url(../img/bg2.jpg) center (center / cover) no-repeat 
+    min-height: 564px
+    padding: 170px 0 190px
+    &__title
+        font-family: Open Sans
+        font-size: 35px
+        font-weight: 300
+        text-align: center
+        color: #fff
+    &__text
+        margin: 0 auto
+        width: 447px
+        padding-top: 20px
+        font-family: Open Sans
+        font-size: 15px
+        color: #fff
+    &__btn 
+        display: block
+        margin: 30px auto
+        width: 341px
+        height: 62px
+        border: none
+        border-radius: 31px
+        background-color: #fff
+
+        font-family: Open Sans
+        font-weight: 700
+        font-size: 18px
+        text-align: center
+        color: #d54c63
+
+.heading
+    display: flex
+    &__img 
+        width: 50%
+        position: relative
+    &__wrapper
+        margin: 95px 500px 131px 102px
+    &__title
+        font-family: Open Sans
+        font-size: 15px
+        text-align: left
+        font-weight: 700
+        text-transform: uppercase
+        color: #3a4d60
+    &__text
+        padding-top: 10px
+        font-family: Open Sans
+        font-size: 19px
+        text-align: left
+        color: #3a4d60
+    &__text_2
+        padding-top: 40px
+        font-family: Open Sans
+        font-size: 15px
+        text-align: left
+        color: #3a4d60
+
+.experience
+    background: url(../img/bg3.jpg) center (center / cover) no-repeat 
+    min-height: 550px
+    padding: 188px
+    &__title
+        font-family: Open Sans
+        font-size: 40px
+        font-weight: 300
+        text-align: center
+        color: #fff
+    &__text
+        padding: 30px 0
+        font-family: Open Sans
+        font-size: 20px
+        text-align: center
+        color: #a87bb7
+    &__btn
+        display: block
+        width: 280px
+        height: 60px
+        margin: 0 auto
+        border: none
+        border-radius: 29.9px
+        box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.4)
+        background-color: #8824cd
+
+        font-family: Open Sans
+        font-size: 18px
+        font-weight: 700
+        text-align: center
+        color: #fff
+    &__subtitle
+        padding-top: 18px
+        font-family: OpenSans
+        font-size: 12px
+        text-align: center
+        color: #fff
+
+.photo
+    background: url(../img/bg4.jpg) center (center / cover) no-repeat 
+    min-height: 670px
+    padding: 370px 0 0 0
+    &__btn
+        width: 135px
+        height: 35px
+        border-radius: 17.5px
+        border: none
+        border: solid 2px #fff
+        background: transparent
+        &:hover 
+            background-color: #81b441
+
+        font-family: Open Sans
+        font-size: 13px
+        font-weight: 600
+        text-align: center
+        color: #fff
+    &__title
+        padding: 28px 700px 0 0 
+        font-family: Open Sans
+        font-size: 40px
+        text-align: left
+        color: #fff
+    &__wrapper
+        padding-top: 23px
+        display: flex
+    &__name
+        padding: 13px 0 0 15px
+        font-family: Open Sans
+        font-size: 13px
+        font-weight: 600
+        text-align: left
+        color: #fff
+
+.need
+    display: flex
+    &__wrapper
+        margin: 110px 70px 0 520px
+    &__title
+        font-family: Open Sans
+        font-size: 15px
+        text-align: left
+        font-weight: 700
+        text-transform: uppercase
+        color: #3a4d60
+    &__text
+        padding-top: 10px
+        font-family: Open Sans
+        font-size: 19px
+        text-align: left
+        color: #3a4d60
+    &__text_2
+        padding-top: 40px
+        font-family: Open Sans
+        font-size: 15px
+        text-align: left
+        color: #3a4d60
+    &__img
+        width: 50%
+        position: relative
+
+.help
+    min-height: 460px
+    padding: 78px 0 0
+    background-color: #e7526b
+    &__title
+        font-family: Open Sans
+        font-size: 15px
+        font-weight: bold
+        text-transform: uppercase
+        text-align: left
+        color: #fff
+    &__text
+        padding: 40px 900px 0 0
+        font-family: Open Sans
+        font-size: 15px
+        text-align: left
+        color: #fff
+    &__email
+        padding-top: 40px
+        font-family: Open Sans
+        font-size: 15px
+        text-align: left
+        color: #fff
+
+.footer
+    height: 95px
+    padding: 45px 778px 37px 211px
+    background-color: #2e3b4e
+    &__text
+        font-family: Open Sans
+        font-size: 12px
+        text-align: left
+        color: #fff
+
+@import "media"
